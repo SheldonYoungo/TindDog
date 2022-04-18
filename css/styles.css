@@ -1,0 +1,192 @@
+/* Global */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: #fff;
+}
+
+/* Headings */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/* Title section */
+
+#title .container-fluid {
+    padding: 3% 15% 7%;
+    text-align: left;
+}
+/* Navbar */
+
+.navbar {
+    padding:0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item {
+    padding: 0 1.125rem;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.navbar-collapse {
+    transition: .2s ease-in-out;
+}
+
+/* Download button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+.download-icon {
+    margin-right: 10px;
+}
+
+/* Images */
+
+.title-image {
+    width: 20%;
+    transform: rotate(25deg);
+    right: 23%;
+    position: absolute;
+}
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    margin: 0;
+    position: relative;
+}
+
+.features-items {
+    padding: 1.25rem;
+}
+
+.features-icons {
+    font-size: 50px;
+    color: #ef8172;
+    margin: 0.625rem;
+}
+
+.features-icons:hover {
+    color: #ff4c68;
+    transition: .2s;
+}
+
+.features p {
+    color: #8f8f8f;
+}
+
+.features-title {
+    font-size: 1.5rem;
+}
+
+/* Testimonial secction */
+
+#testimonials, #press{
+    background-color: #ef8172;
+}
+
+.testimonial-image {
+    border-radius: 100%;
+    width: 10%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+    padding: 100px;
+}
+
+.card {
+    padding: 0;
+}
+
+.pricing-column {
+    padding: 3% 2%
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+
+.social-media-icons {
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+#copyright {
+    color: #8f8f8f;
+}
+/* Breakpoints */
+
+ @media (max-width: 1028px) { /* Normaliza la imagen del título y centra ambos cuando el viewport sea menor o igual a 1028px */
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
